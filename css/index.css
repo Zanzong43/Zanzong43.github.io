@@ -32,7 +32,7 @@ main{
   height: 40px;
   z-index:1;
   font-family:lobster, Brush Script MT, fantasy;
-
+  background-color: #c5c2c28f;
 }
 header{
   padding-bottom:20px;
@@ -57,7 +57,7 @@ margin-right: 50px;
   margin-left: 50px;
 }
 nav a {
-    color: #6a6a6a;
+    color: #4e4e4e;
 }
 nav li{
   display: inline-block;
