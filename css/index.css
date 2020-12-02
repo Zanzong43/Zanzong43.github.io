@@ -1,17 +1,18 @@
 html, body{
-	
 	margin:0;
 	padding: 0;
 	display: flex;
   flex-direction: column;  
-  
 }
+
 h1{ 
 color:black;
 }
+
 h2{
 color:black;
 }
+
 main{
   margin:0px;
   padding:0px;
@@ -21,6 +22,7 @@ main{
   min-height: 100vh;
   padding-bottom: 2em;
 }
+
 #navbar{
  position:fixed;
   display:fixed;
@@ -31,73 +33,108 @@ main{
   width:100%;
   height: 40px;
   z-index:1;
-  font-family:lobster, Brush Script MT, fantasy;
+  font-family:'Major Mono Display', Brush Script MT, fantasy;
   background-color: #a8a8a8ad;
   padding-bottom: 10px;
+
 }
+
 header{
   padding-bottom:20px;
   padding-left: 0%;
   margin-top:0px;
 }
+
 header::after{
 content:"";
   display:table;
   clear:both;
 }
+
 nav{
 float:right;
 margin-right: 50px;
+width: 80%;
 }
+
 .logo{
   display: inline-block;
-  vertical-align:top;
-  width: 20px;
-  height: 20px;
+  height: 100%;
   color: #6a6a6a;
   margin-left: 50px;
+  margin-top: auto;
+  width: 12%;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+
+
+
+  
 }
+
 nav a {
     color: #413f3f;
 }
+
 nav li{
   display: inline-block;
-  margin-left: 80px; 
+  margin-left: 80px;
 }
+
+nav ul{
+  width:100%;
+  max-width: 100%;
+
+}
+
 nav a:hover{
   display: inline-block;
   color:black;
 }
 #welcome-section{
   width:90%;
-  margin: 40px auto 0 auto;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
   align-items:center;
   font-family: Roboto Mono;
   background-color:white;
-  height: 100vh;
+  height: 100vh; 
 }
 
 #selfPhoto{
   float:left;
-  width: 50vh;
+  width: 75vh;
   height: 100%;
-  margin: auto;
-  padding-right: 25%;
+  max-width: 50%;
 }
 
 #selfphoto img{
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
-  max-height: 100%;
+  object-fit: contain;
 }
 
-#Welcome-text{
-  float:right;
+#selfPhotoWrapper{
+  max-width:100%;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
 
+#welcome-text{
+  float:right;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  max-width: 50%;
 }
 
 
