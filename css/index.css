@@ -34,7 +34,7 @@ main{
   height: 40px;
   z-index:1;
   font-family:'Major Mono Display', Brush Script MT, fantasy;
-  background-color: #a8a8a8ad;
+  background-color: #a5a5a5ce;
   padding-bottom: 10px;
 
 }
@@ -53,39 +53,29 @@ content:"";
 
 nav{
 float:right;
-margin-right: 50px;
-width: 80%;
+padding-right: 40px;
 }
 
-.logo{
-  display: inline-block;
-  height: 100%;
-  color: #6a6a6a;
-  margin-left: 50px;
-  margin-top: auto;
-  width: 12%;
-  justify-content: center;
-  flex-direction: column;
-  align-items:center;
 
-
-
-  
-}
 
 nav a {
-    color: #413f3f;
+    color: #4e4e4e;
+    position: relative;
+      right: 0;
+    width: 100%;
 }
 
 nav li{
   display: inline-block;
-  margin-left: 80px;
+  padding-left: 50px;
+  position: relative;
 }
 
 nav ul{
-  width:100%;
-  max-width: 100%;
-
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-size: 15px;
 }
 
 nav a:hover{
@@ -228,3 +218,7 @@ nav a:hover{
   background-color:white;
   padding-bottom: 2em;
 }
+
+
+
+
