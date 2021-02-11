@@ -1,81 +1,104 @@
-	<!Doctype html>
-	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<!Doctype html>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
-	<head>
-		<title> Alex Koszuta </title>
-		<link rel="stylesheet" href="css/index.css" />
-	</head>
+<head>
+	<title> Alex Koszuta </title>
+	<link rel="stylesheet" href="css/index.css" />
+</head>
 
-	
-	<main>
-	  <body>
-	  <header>
-		<div id="navbar">
-		  <nav>
-			<ul>
-			  <li> <a href="#welcome-section"> Home </a></li>
-			  <li> <a href="#projectSection"> Projects</a></li>
-			  <li> <a href="#about-me"> About Me</a></li>
-			  <li> <a href="#resume"> Resume </a></li>
-			  <li> <a href="#contact"> Contact </a></li>
-			  
-			  </div> 
-	  </header>
-	  
-	  <div id="welcome-section">
-		<div id="selfPhotoWrapper">
-			<img id="selfPhoto" src="./img/Face.png">
+
+<main>
+
+	<body>
+		<header>
+			<div id="navbar">
+				<nav>
+					<ul>
+						<li> <a href="#welcome-section"> Home </a></li>
+						<li> <a href="#projectSection"> Projects</a></li>
+						<li> <a href="#about-me"> About Me</a></li>
+						<li> <a href="#resume"> Resume </a></li>
+						<li> <a href="#contact"> Contact </a></li>
+
+			</div>
+		</header>
+
+		<div id="welcome-section">
+			<div id="selfPhotoWrapper">
+				<img id="selfPhoto" src="./img/Face.png">
+			</div>
+			<div id="welcome-text">
+				<h1> Welcome! </h1>
+				<p> I am a front end developer looking to break into the industy. View my projects below!</p>
+			</div>
 		</div>
-		<div id="welcome-text">
-		<h1> Welcome! </h1>
-		<p> I am a front end developer looking to break into the industy. View my projects below!</p>
-	  </div>
-	  </div>
-	  <div id="projectSection">
-		<h2> Projects </h2>
-		<p>So far these are my two completed projects. </p>
-		<div class="wrapper">
-			<div class="project">
-				<div id="movies">
-					<h1 class="project-title"> Movies </h1>
-					<p>An app where you can search for a movie and it's poster using the movie database (TMBd) API. You can then watch that movie's trailer.</p>
-					<a target="_blank" href="./Movie.html" class="project-title"> 
-						<img class="screenshot" src="./img/MovieAppScreenshot.PNG">
-					</a>
+		<div id="projectSection">
+			<h2> Projects </h2>
+			<p>So far these are my two completed projects. </p>
+			<div class="wrapper">
+
+				<div class="project">
+					<div id="pokemon">
+						<h1 class="project-title"> Pokedex </h1>
+						<p>My first react app. I built it using the PokeAPI. The app shows you pages of pokemon and you
+							can click to view the next page or go back. Right now I am working on implementing a search
+							bar and a feature to show more details of a seletected pokemon.</p>
+						<a target="_blank" href="http://Zanzong43.github.io/pokemonapp" class="project-title">
+							<img class="screenshot" src="./img/pokedexScreenshot.PNG">
+						</a>
+					</div>
+				</div>
+
+
+
+
+				<div class="project">
+					<div id="movies">
+						<h1 class="project-title"> Movies </h1>
+						<p>An app where you can search for a movie and it's poster using the movie database (TMBd) API.
+							You can then watch that movie's trailer.</p>
+						<a target="_blank" href="./Movie.html" class="project-title">
+							<img class="screenshot" src="./img/MovieAppScreenshot.PNG">
+						</a>
+					</div>
+				</div>
+				<div class="project">
+					<div id="TicTacToe">
+						<h1 class="project-title"> Tic Tac Toe </h1>
+						<p>Tic Tac Toe built in javascript, html, and css. </p>
+						<a target="_blank" href="./TicTacToe.html" class="project-title">
+							<img class="screenshot" src="./img/TicTacToeScreenshot.PNG">
+						</a>
+
+					</div>
 				</div>
 			</div>
-			<div class="project">
-				<div id="TicTacToe">
-					<h1 class="project-title"> Tic Tac Toe </h1>
-					<p>Tic Tac Toe built in javascript, html, and css. </p>
-					<a target="_blank" href="./TicTacToe.html" class="project-title">
-						<img class="screenshot" src="./img/TicTacToeScreenshot.PNG">
-					</a>
+		</div>
 
-				</div>
-			</div>
-		</div>	
 
-		
-		
-	  </div>
-	  
-	  <div id="about-me">
-		<h2> About me: </h2>
-		<p> I am a self motivated and self-taught developer. When I was younger I was intrigued by both mechanical engineering and web development and chose to presue
-		CAD. I quickly learned that that career is not for me as it does not allow me to reach
-		my full potential. I started spending my free time coding at night and realized that this is my passion!</p>
-		<a href="./img/Resume.pdf" id="resume" target="_blank"> Click here for my resume! </a>
-	  </div>
+		</div>
 
-	  <div id="contact">
-		<h2> Contact: </h2>
-		<p> My cell number: (716) 345-7666</p>
-		<p> My email: Alexkoszuta43@gmail.com </p>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCWZQUnxljV33Eijb96ELC7LLm0Yj44I84Bu_TweiLFJj0XQ/viewform?embedded=true" width="100%" height="937" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-	  </div>
-	  
-	</main>
-	</body>
-	</html>
+		<div id="about-me">
+			<h2> About me: </h2>
+			<p> I am a self motivated and self-taught developer. When I was younger I was intrigued by both mechanical
+				engineering and web development and chose to presue
+				CAD. I quickly learned that that career is not for me as it does not allow me to reach
+				my full potential. I started spending my free time coding at night and realized that this is my passion!
+			</p>
+			<a href="./img/Resume.pdf" id="resume" target="_blank"> Click here for my resume! </a>
+		</div>
+
+		<div id="contact">
+			<h2> Contact: </h2>
+			<p> My cell number: (716) 345-7666</p>
+			<p> My email: Alexkoszuta43@gmail.com </p>
+			<iframe
+				src="https://docs.google.com/forms/d/e/1FAIpQLSfCWZQUnxljV33Eijb96ELC7LLm0Yj44I84Bu_TweiLFJj0XQ/viewform?embedded=true"
+				width="100%" height="937" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		</div>
+
+</main>
+</body>
+
+</html>
