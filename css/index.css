@@ -6,18 +6,18 @@ html, body{
 }
 
 h1{ 
-color:black;
+color:white;
 }
 
 h2{
-color:black;
+color:white;
 }
 
 main{
   margin:0px;
   padding:0px;
   font-size: 100%;
-  background-image: url("../img/Marble-Background.png");
+  background-color: #0F2B3F;
   color: #909090;
   min-height: 100vh;
   padding-bottom: 2em;
@@ -33,8 +33,8 @@ main{
   width:100%;
   height: 40px;
   z-index:1;
-  font-family:'Major Mono Display', Brush Script MT, fantasy;
-  background-color: #a5a5a5ce;
+  font-family:'Roboto Mono', Brush Script MT, fantasy;
+  background-color: #173a53b7;
   padding-bottom: 10px;
 
 }
@@ -59,7 +59,7 @@ padding-right: 40px;
 
 
 nav a {
-    color: #4e4e4e;
+    color: #ffffff;
     position: relative;
       right: 0;
     width: 100%;
@@ -83,6 +83,9 @@ nav a:hover{
   color:black;
 }
 #welcome-section{
+  background-image: url("../img/siteBackground.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%;
   width:90%;
   margin: auto;
   display: flex;
@@ -90,7 +93,7 @@ nav a:hover{
   justify-content: center;
   align-items:center;
   font-family: Roboto Mono;
-  background-color:white;
+  background-color:#0E2336;
   height: 100vh; 
 }
 
@@ -137,7 +140,7 @@ nav a:hover{
   flex-direction: column;
   align-items: center;
   font-family: Roboto Mono;
-  background-color:white;
+  background-color:#0E2336;
   padding-bottom: 2em;
 }
 
@@ -178,6 +181,16 @@ nav a:hover{
   padding-bottom: 2em;
 }
 
+
+#ecommerce{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  padding-bottom: 2em;
+}
+
+
 #TicTacToe{
   display: flex;
   justify-content: center;
@@ -206,7 +219,7 @@ nav a:hover{
   flex-direction: column;
   align-items:center;
   font-family: Roboto Mono;
-  background-color:white;
+  background-color:#0E2336;
   padding-bottom: 2em;
 }
 #about-me p{
@@ -220,7 +233,7 @@ nav a:hover{
   flex-direction: column;
   align-items:center;
   font-family: Roboto Mono;
-  background-color:white;
+  background-color:#0E2336;
   padding-bottom: 2em;
 }
 
