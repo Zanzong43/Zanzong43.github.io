@@ -1,116 +1,243 @@
-<!Doctype html>
-<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-	<title> Alex Koszuta </title>
-	<link rel="stylesheet" href="css/index.css" />
+	<title>AlexK Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<main>
 
-	<body>
-		<header>
-			<div id="navbar">
-				<nav>
-					<ul>
-						<li> <a href="#projectSection"> Projects</a></li>
-						<li> <a href="#about-me"> About Me</a></li>
-						<li> <a target="_blank" href="./img/Resume.pdf"> Resume </a></li>
-						<li> <a href="#contact"> Contact </a></li>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header" class="wrapper">
+
+			<!-- Logo -->
+			<div id="logo">
+				<h1><a href="index.html">Hi, Im Alexander Koszuta.</a></h1>
+				<p>I am a front end developer. Check out my work below and get in touch with me!</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+
+					<li><a href="./images/myResume.pdf">Resume</a></li>
+					<li><a href="#skills">My Skills</a></li>
+					<li>
+						<a href="#">Projects</a>
+						<ul>
+							<li><a href="https://zanzong43.github.io/ecommerce/#/">Ecommerce</a></li>
+							<li><a href="https://zanzong43.github.io/pokemonapp/">Pokedex</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact Me</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1">
+			<div class="title">About me</div>
+			<div class="container">
+				<p class="style1">My name is Alexander Koszuta. I am currently a drafter located in Syracuse, NY but I
+					am looking to switch careers into the world of web development. I want to switch careers because I
+					am looking for something more long term; I am thankful for my current position but it just doesnt
+					satisfy me. I find coding challenging but rewarding and enjoy doing it. I have only done some
+					personal projects but would love the opportunity to persue my passion in a professional setting.
+				</p>
+				<ul class="actions">
+					<li><a href="#" class="button style3 large">My Resume</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<section id="main" class="wrapper style2">
+			<div class="title">My Skills</div>
+			<div class="container" id="skills">
+
+
+				<!-- Features -->
+				<section id="features">
+					<header class="style1">
+						<h2>I specialize in front end technologies right now but, I am always learning new programming
+							langauges!</h2>
+					</header>
+
+
+					<div class="feature-list">
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>HTML/CSS</h3>
+									<p>HTML5 and strong knowledge of flex box, and css animations</p>
+
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>Javascript/React</h3>
+									<p>Fluent in vanilla javascript (ES6) and constantly working on my react skills</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>Version Control</h3>
+									<p>Use github and write clear consise commit messages</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>RestAPI's</h3>
+									<p>Experience handling API requests and transforming responses into a usable form
+									</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>Microsoft Office/Google Suite</h3>
+									<p>Word/Docs, Excel/Sheets, Powerpoint/Slides, Access, Outlook</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<h3>Image Manipulation</h3>
+									<p>Solid understanding of GIMP and photoshop</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<ul class="actions special">
+						<li><a href="https://github.com/Zanzong43" class="button style1 large">My Github</a></li>
+					</ul>
+				</section>
 
 			</div>
-		</header>
+		</section>
 
-		<div id="welcome-section">
-			<div id="selfPhotoWrapper">
-				<img id="selfPhoto" src="./img/Face.png">
-			</div>
-			<div id="welcome-text">
-				<h1> Welcome! </h1>
-				<p> I am a front end developer looking to break into the industy. View my projects below!</p>
-			</div>
-		</div>
-		<div id="projectSection">
-			<h2> Projects </h2>
-			<p>So far these are my two completed projects. </p>
-			<div class="wrapper">
-
-				<div class="project">
-					<div id="ecommerce">
-						<h1 class="project-title"> Ecommerce </h1>
-						<p>My second react app. It is a basic ecommerce store. It shows a list of products, their image,
-							and their price. You can add items to your cart, view your cart, the subtotal for the items
-							in your cart, and you can clear your cart. I utilized commerce.js to handle the backend of
-							this project.
-						</p>
-						<a target="_blank" href="http://Zanzong43.github.io/pokemonapp" class="project-title">
-							<img class="screenshot" src="./img/pokedexScreenshot.PNG">
-						</a>
+		<!-- Highlights -->
+		<section id="highlights" class="wrapper style3">
+			<div class="title">My Projects!</div>
+			<div class="container">
+				<div class="row aln-center">
+					<div class="col-4 col-12-medium" id="ecommerce">
+						<section class="highlight">
+							<a href="https://zanzong43.github.io/ecommerce/#/" class="image featured"><img
+									src="images/pic02.jpg" alt="" /></a>
+							<h3><a href="#">Ecommerce Store</a></h3>
+							<p>Using React and the CommerceJS API to handle the backend, I created an app that lists
+								products with their price and image. You can add items to a cart, view your cart (and
+								subtotal) and clear your cart.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/Zanzong43/ecommerce" class="button style1">View Code</a>
+								</li>
+							</ul>
+						</section>
 					</div>
-				</div>
-
-
-				<div class="project">
-					<div id="pokemon">
-						<h1 class="project-title"> Pokedex </h1>
-						<p>My first react app. I built it using the PokeAPI. The app shows you pages of pokemon and you
-							can click to view the next page or go back. Right now I am working on implementing a search
-							bar and a feature to show more details of a seletected pokemon.</p>
-						<a target="_blank" href="http://Zanzong43.github.io/pokemonapp" class="project-title">
-							<img class="screenshot" src="./img/pokedexScreenshot.PNG">
-						</a>
+					<div class="col-4 col-12-medium" id="pokedex">
+						<section class="highlight">
+							<a href="https://zanzong43.github.io/pokemonapp/" class="image featured"><img
+									src="images/pic03.jpg" alt="" /></a>
+							<h3><a href="#">Pokedex</a></h3>
+							<p>My first react app. Using PokeAPI I created a list of all pokemon showing their names and
+								a picture of them. Since then API only returns 20 results at a time I also had to
+								implement basic pagination.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/Zanzong43/pokemonapp" class="button style1">View
+										Code</a></li>
+							</ul>
+						</section>
 					</div>
-				</div>
-
-
-
-
-				<div class="project">
-					<div id="movies">
-						<h1 class="project-title"> Movies </h1>
-						<p>An app where you can search for a movie and it's poster using the movie database (TMBd) API.
-							You can then watch that movie's trailer.</p>
-						<a target="_blank" href="./Movie.html" class="project-title">
-							<img class="screenshot" src="./img/MovieAppScreenshot.PNG">
-						</a>
-					</div>
-				</div>
-				<div class="project">
-					<div id="TicTacToe">
-						<h1 class="project-title"> Tic Tac Toe </h1>
-						<p>Tic Tac Toe built in javascript, html, and css. </p>
-						<a target="_blank" href="./TicTacToe.html" class="project-title">
-							<img class="screenshot" src="./img/TicTacToeScreenshot.PNG">
-						</a>
-
+					<div class="col-4 col-12-medium" id="ticTacToe">
+						<section class="highlight">
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+							<h3><a href="./TicTacToe.html">Tic Tac Toe</a></h3>
+							<p>My first project. Made with HTML, CSS, and vanilla Javascript.</p>
+						</section>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer" class="wrapper">
+			<div class="title">Contact Me</div>
+
+			<div class="container" id="contact">
+				<header class="style1">
+					<h2>Reach out to me on anything below. Let's make something together!</h2>
+				</header>
 
 
-		</div>
+				<div class="col-6 col-12-medium">
 
-		<div id="about-me">
-			<h2> About me: </h2>
-			<p> I am a self motivated and self-taught developer. When I was younger I was intrigued by both mechanical
-				engineering and web development and chose to presue
-				CAD. I quickly learned that that career is not for me as it does not allow me to reach
-				my full potential. I started spending my free time coding at night and realized that this is my passion!
-			</p>
-			<a href="./img/Resume.pdf" id="resume" target="_blank"> Click here for my resume! </a>
-		</div>
+					<!-- Contact -->
+					<section class="feature-list small">
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<section>
+									<h3 class="icon solid fa-home">Mailing Address</h3>
+									<p>
+										Untitled Corp<br />
+										1234 Somewhere Rd<br />
+										Nashville, TN 00000
+									</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-small">
+								<section>
+									<h3 class="icon solid fa-comment">Social</h3>
+									<p>
+										<a href="#">@twitter</a><br />
+										<a href="#">linkedin.com/untitled</a><br />
+										<a href="#">github</a>
+									</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-small">
+								<section>
+									<h3 class="icon solid fa-envelope">Email</h3>
+									<p>
+										<a href="#">info@untitled.tld</a>
+									</p>
+								</section>
+							</div>
+							<div class="col-6 col-12-small">
+								<section>
+									<h3 class="icon solid fa-phone">Phone</h3>
+									<p>
+										(000) 555-0000
+									</p>
+								</section>
+							</div>
+						</div>
+					</section>
 
-		<div id="contact">
-			<h2> Contact: </h2>
-			<p> My cell number: (716) 345-7666</p>
-			<p> My email: Alexkoszuta43@gmail.com </p>
-			<iframe
-				src="https://docs.google.com/forms/d/e/1FAIpQLSfCWZQUnxljV33Eijb96ELC7LLm0Yj44I84Bu_TweiLFJj0XQ/viewform?embedded=true"
-				width="100%" height="937" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-		</div>
+				</div>
 
-</main>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
